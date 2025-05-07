@@ -17,12 +17,11 @@
     userName = "Mychilli";
     userEmail = "Mychilli@gmail.com";
   };
-#  programs.fish = {
-#    enable = true;
-#    shellAliases = {
-#      ls = "ls -a";
-#    };
-#  };
+  programs.fish.enable = true;
+  programs.fish.shellAliases = {
+    ll = "ls -l";
+  };
+
   home.stateVersion = "24.11";
   programs.home-manager.enable = true;
   
