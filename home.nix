@@ -17,6 +17,7 @@
     userEmail = "Mychilli@gmail.com";
   };
   programs.fish = {
+    enable = true;
     shellAliases = {
       ls = "ls -a";
     };
