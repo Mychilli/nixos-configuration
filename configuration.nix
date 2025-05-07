@@ -93,7 +93,7 @@
     isNormalUser = true;
     description = "michael malwick";
     shell = pkgs.fish;
-   extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
     ];
   };
