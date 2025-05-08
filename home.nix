@@ -10,6 +10,7 @@
     gh
     vscode
     fish
+    nnn
   ];
   
   programs.git = {
