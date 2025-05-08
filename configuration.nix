@@ -52,11 +52,13 @@
 
   #sway configuration
    services.gnome.gnome-keyring.enable = true;
-   programs.sway = {
-     enable = true;
-     wrapperFeatures.gtk = true;
-  };
+  # programs.sway = {
+  #   enable = true;
+  #   wrapperFeatures.gtk = true;
+  #};
 
+  #hyprland config
+   programs.hyprland.enable = true;
 
   # Configure keymap in X11
    # services.xserver.xkb = {
@@ -117,6 +119,7 @@
     #this set for sway
     grim
     slurp
+    kitty
     wl-clipboard
     mako
     rofi
