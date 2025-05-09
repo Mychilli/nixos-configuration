@@ -11,8 +11,18 @@
     vscode
     fish
     nnn
+    hyprland-protocols
+    hyprland
+    xdg-desktop-portal-hyprland
+   # wlroots
+   # wayland-utils
+   # xdg-desktop-portal
+
+
   ];
   
+  programs.kitty.enable = true;
+ # wayland.windowManager.hyprland.enable = true;
   programs.git = {
     enable = true;
     userName = "Mychilli";

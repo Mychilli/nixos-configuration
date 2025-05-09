@@ -52,10 +52,10 @@
 
   #sway configuration
    services.gnome.gnome-keyring.enable = true;
-  # programs.sway = {
-  #   enable = true;
-  #   wrapperFeatures.gtk = true;
-  #};
+   programs.sway = {
+     enable = true;
+     wrapperFeatures.gtk = true;
+  };
 
   #hyprland config
    programs.hyprland.enable = true;
