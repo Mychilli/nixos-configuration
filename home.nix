@@ -39,4 +39,14 @@
     disable_hyprland_logo = true; 
     force_default_wallpaper = 0;
   };
+  programs.zsh = {
+    enable = true;
+    enableCompletions = true;
+   # autosuggestions.enable = true;
+    syntaxHighlighting.enable = true;
+    
+    shellAliases =  {
+      update = "sudo nixos-rebuild switch --flake .";
+    };
+  };
 }  
