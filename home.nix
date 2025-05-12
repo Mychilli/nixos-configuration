@@ -35,5 +35,8 @@
 
   home.stateVersion = "24.11";
   programs.home-manager.enable = true;
-  
-}
+  }
+  wayland.windowManager.hyprland.settings = {
+    disable_hyprland_logo = true; 
+  }
+}  
