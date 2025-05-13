@@ -17,7 +17,8 @@
    # wlroots
    # wayland-utils
    # xdg-desktop-portal
-
+    zsh
+    chromium
 
   ];
   
@@ -41,8 +42,8 @@
   };
   programs.zsh = {
     enable = true;
-    enableCompletions = true;
-   # autosuggestions.enable = true;
+    enableCompletion = true;
+    autosuggestions.enable = true;
     syntaxHighlighting.enable = true;
     
     shellAliases =  {
